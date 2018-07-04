@@ -287,6 +287,10 @@ h1 {
     background-color: #75c9e2;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 767px) {
     #section-one .container .row .col h2 {
         margin: 0px;
