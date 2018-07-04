@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Roboto');
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext,greek-ext,greek,vietnamese,cyrillic,cyrillic-ext);
+/* Global Reset */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+}
+
+/* End of Global Reset */
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.navbar-custom {
+    background: transparent;
+    /* background: black; */
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar-custom a {
+    color: cyan;
+}
+
+.navbar-nav-custom li a {
+    color: white;
+    margin: 0px 10px auto;
+}
+
+.navbar-brand-custom {
+    font-size: 30px;
+}
+
+#section-one {
+    background: rgb(42, 54, 63);
+    height: 100px;
+    width: 100%;
+    display: block;
+}
+
+#section-two {
+    background: white;
+    width: inherit;
+}
+
+#section-three {
+    background: #2e5ca5;
+    height: auto;
+    width: inherit;
+}
+
+#section-three .container {
+    padding-bottom: 100px;
+}
+
+#footer {
+    background: black;
+    /* width: inherit; */
+    color: white;
+}
+
+#footer h2 {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+#footer .container .row .col {
+    margin-top: 50px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#section-one .container .row {}
+
+#section-one .container .row .col {
+    margin: 100px;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+#section-one .container .row .col h1 {
+    color: white;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#section-one .container .row .col h2 {
+    margin-left: 100px;
+    color: white;
+    font-weight: 100;
+    font-size: 70px;
+    /* font-family: 'Roboto', Arial, Helvetica, sans-serif; */
+    text-align: left;
+}
+
+#section-one .container .row .col p {
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 100;
+    font-size: 30px;
+    font-style: italic;
+    /* width: 500px; */
+    text-align: left;
+}
+
+.main-logo {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    opacity: 0.2;
+    transition: opacity 0.25s;
+}
+
+.main-logo:hover {
+    opacity: 0.5;
+}
+
+#section-two-content {
+    width: 100%;
+    /* height: 200px; */
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.resize-framework-items {
+    margin: 0px 15px;
+    margin-top: 55px;
+}
+
+#section-three .container .row h1 {
+    /* width: 100px; */
+    margin-top: 30px;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    /* font-family: 'Roboto', Arial, Helvetica, sans-serif; */
+    text-align: left;
+}
+
+.section-three-main-p {
+    /* width: 600px; */
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 100;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+.work-img-game {
+    max-width: 1500px;
+    min-height: 300px;
+    background-image: url("img/game-engine.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-transition: transform 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: transform 0.25s;
+}
+
+.work-img-space {
+    max-width: 1500px;
+    min-height: 300px;
+    background-image: url("img/space-website.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-transition: transform 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: transform 0.25s;
+}
+
+.work-img-other {
+    max-width: 1500px;
+    min-height: 300px;
+    background-image: url("img/space-website.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-transition: transform 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: transform 0.25s;
+}
+
+.work-img-game:hover {
+    filter: grayscale(100%);
+    transform: scale(1.01);
+}
+
+.work-img-space:hover {
+    filter: grayscale(100%);
+    transform: scale(1.01);
+}
+
+.work-img-other:hover {
+    filter: grayscale(100%);
+    transform: scale(1.01);
+}
+
+.section-three-item {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.section-three-item:hover {
+    background: rgb(53, 129, 97);
+    cursor: pointer;
+}
+
+.section-three-item h2 {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.section-three-item p {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.social-media-links {
+    z-index: 100;
+    width: 70px;
+    position: fixed;
+    top: 250px;
+    right: 0px;
+}
+
+.social-media-icons {
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+.social-media-icons:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.test {
+    background-color: red;
+}
+
+.portfolio-box {
+    width: 100%;
+    height: 200px;
+    background-color: #153260;
+    text-align: center;
+    padding: 0px 20px;
+    padding-top: 58px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.portfolio-box h2 {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.portfolio-box p {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    padding: 0px 8px;
+}
+
+.portfolio-box:hover {
+    background-color: #75c9e2;
+}
+
+@media only screen and (max-width: 767px) {
+    #section-one .container .row .col h2 {
+        margin: 0px;
+        font-size: 50px;
+    }
+    #section-one .container .row .col h1 {
+        font-size: 40px;
+    }
+    #section-one .container .row .col p {
+        font-size: 24px;
+    }
+    .section-three-main-p {
+        font-size: 18px;
+    }
+}
