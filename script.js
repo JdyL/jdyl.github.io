@@ -16,6 +16,13 @@ var screenWidthOne = 974;
 $(document).ready(function () {
     scrollToTwo();
     setTimeout(10000);
+
+    setTimeout(function () {
+        var loadingScreen = $('#loading-screen');
+        var loaderBody = $('#loader-js');
+        loadingScreen.fadeOut();
+        loaderBody.css('height', 'auto');
+    }, 500);
 });
 
 window.onload = function () {
