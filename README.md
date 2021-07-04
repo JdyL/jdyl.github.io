@@ -1,6 +1,4 @@
 # jdyl.github.io
-My GitHub Main Page
+Outdated repo with Github Pages to portfolio website.
 
-// In Construction
-
-Link to page: http://jdyl.github.io/ 
+Go to: https://jdyl.io/
